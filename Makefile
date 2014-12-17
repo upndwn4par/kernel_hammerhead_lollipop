@@ -1,7 +1,7 @@
 VERSION = 3
 PATCHLEVEL = 4
 SUBLEVEL = 0
-EXTRAVERSION =_lollipop-dream
+EXTRAVERSION =_lollipopdream
 NAME = Saber-toothed Squirrel
 
 # *DOCUMENTATION*
@@ -193,7 +193,6 @@ SUBARCH := $(shell uname -m | sed -e s/i.86/i386/ -e s/sun4u/sparc64/ \
 # Note: Some architectures assign CROSS_COMPILE in their arch/*/Makefile
 export KBUILD_BUILDHOST := $(SUBARCH)
 ARCH		?= $(SUBARCH)
-#CROSS_COMPILE	?= $(CONFIG_CROSS_COMPILE:"%"=%)
 CROSS_COMPILE	?= /home/upndwn4par/android/lollipop/prebuilts/gcc/linux-x86/arm/arm-eabi-linaro-4.9/bin/arm-eabi-
 
 # Architecture as present in compile.h
